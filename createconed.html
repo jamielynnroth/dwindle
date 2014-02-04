@@ -11,9 +11,11 @@
     <!-- Loading Flat UI -->
     <link href="css/flat-ui.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Loading custom styles -->
+    <link href="bootstrap/css/style.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.ico">
+    
     <!-- FontAwesome -->
     <link rel="stylesheet" href="fonts/font-awesome-4.0.3/css/font-awesome.min.css">
 
@@ -29,42 +31,94 @@
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
 
-          <div class="text-center">
+          <div class="text-center full-logo">
             <a href="index.html">
               <i class="fa fa-lightbulb-o"></i>
               <!-- <i class="fa fa-angle-double-down"></i>  -->
               <h1 id="logo"> dwindle</h1>
             </a>
-            <h6>Don't have a ConEd.com account?</br>
+            <h6 class="instructions">Don't have a ConEd.com account?</br>
             We can use the ConEd account number on your bill.</h6>
           </div><!-- .center -->
+
+<form action="https://docs.google.com/a/quotidianventures.com/forms/d/1-I3SVMHkt_EMLv4cKQS0tAOuQX5Xs1xukFUD2KVm1EE/formResponse" method="POST" id="ss-form" target="submitter" onsubmit="">
+  <ol style="padding-left: 0">
+    <div class="ss-form-question errorbox-good">
+    <div dir="ltr" class="ss-item  ss-text">
+    <div class="ss-form-entry col-sm-8 center">
+
+      <input type="text" placeholder="ConEd account number" name="entry.2070774578" value="" class="ss-q-short form-control" id="entry_2070774578" dir="auto" aria-label="coned account number  " title="">
+      <div class="error-message"></div>
+      <div class="required-message">This is a required question</div>
+    </div>
+  </div>
+</div> 
+<div class="ss-form-question errorbox-good">
+  <div dir="ltr" class="ss-item  ss-text">
+    <div class="ss-form-entry col-sm-8 center">
+
+    <input type="text" placeholder="Email address" name="entry.1501566554" value="" class="ss-q-short form-control" id="entry_1501566554" dir="auto" aria-label="email  " title="">
+    <div class="error-message"></div>
+    <div class="required-message">This is a required question</div>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="draftResponse" value="[,,&quot;5151556831398278156&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+<input type="hidden" name="fromEmail" value="false">
+
+<input type="hidden" name="fbzx" value="5151556831398278156">
+ 
+ <div class="col-sm-7 col-md-7  col-md-offset-1 col-sm-offset-1 pull-left ">
+      <a href="https://apps1.coned.com/cemyaccount/NonMemberPages/Register.aspx?lang=eng">
+      <h7>I'd like to create my own ConEd.com account.</h7>
+      </a>      
+  </div>
+
+
+  <div class="ss-item ss-navigate col-sm-4 pull-right">
+ 
+          <input class="btn btn-hg btn-primary pull-left" type="submit" name="submit" value="Submit" id="ss-submit">
+
+  </div>
+</ol>
+</form>
+
+      <div id="thanks" class="hidden text-center col-md-8">
+        <img class="center-block" src="images/icons/svg/clocks.svg">
+        <h3 class='text-center'>Analyzing your bill</h3>
+        <h5 class='text-center'>We'll email your potential savings to you shortly</h5>
+      </div>
+</div>
       
-          <!-- <form class="row form-horizontal" role="form"> -->
-            <div class="row">
+        <!-- <!   <!<form class="row form-horizontal" role="form"> -->
+  <!--           <div class="row">
               <div class="col-sm-8 center ">
                   <div class="form-group ">
                     <input type="text" placeholder="ConEd account number" class="form-control  " />
                   </div>
               </div>
-            </div>
+            </div> -->
             
-            
+         <!--    
             <div class="row">
               <div class="col-sm-8 center">
                   <div class="form-group">
                      <input type="email" placeholder="Email address" class="form-control" />
                   </div>
               </div>
-            </div>            
+            </div>   -->
           </div> <!-- .col -->
       </div> <!-- .row -->
 
-      <div class="row">
+  <!--     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <a href="https://apps1.coned.com/cemyaccount/NonMemberPages/Register.aspx?lang=eng"><h7>No thanks, I'd like to create my own ConEd.com account.</h7></a>
         <button class="btn btn-hg btn-primary pull-right "> Go!</button>
         </div>
-      </div> <!-- .row -->
+      </div> <!.row --> 
 
       
         
@@ -76,7 +130,7 @@
       <ul class="nav navbar-nav hidden-xs">           
         <li id="aboutus"><a href="#aboutus">About us</a></li>
         <li><a href="#how">How it works</a></li>
-        <li><a href="#contact">Contact us</a></li>
+        <li><a href="mailto:hi@getdwindle.com">Contact us</a></li>
         <li><a href="#contact">Blog</a></li>
       </ul> 
    
@@ -85,7 +139,7 @@
         <ul class="dropdown-menu">
           <li id="aboutus"><a href="#aboutus">About us</a></li>
           <li><a href="#how">How it works</a></li>
-          <li><a href="#contact">Contact us</a></li>
+          <li><a href="mailto:hi@getdwindle.com">Contact us</a></li>
           <li><a href="#contact">Blog</a></li>
         </ul>
       </div>
