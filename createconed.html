@@ -26,7 +26,11 @@
     <![endif]-->
   </head>
   <body>
+
+    <div class="closeanywhere"></div>
+
     <div class="container">
+
       
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
@@ -86,6 +90,43 @@
 </ol>
 </form>
 
+  <div class="popup center hidden" id="aboutus-popup">
+      <div>
+          <div >
+             <div class="popup-header">
+              <span class="fui-cross pull-right"></span>
+                  <h4 class="modal-title">About Us</h4>
+            </div><!--modal-header -->
+            
+            <div class="popup-body">
+              <p>After having children, we left the big bad city and moved to Westchester. Like you, we were soon welcomed by ConEd bills that regularly exceeded $500. </p>
+
+              <p>In our research, we discovered that you could potentialy lower your bill by switching to another supplier. Unfortunately, that process was filled with complexity and hidden fees. As a result, we created Dwindle to help break through the confusion.</p>
+
+          </div> <!--modal-body-->
+        </div><!--.modal-content -->
+      </div><!--.modal-dialog-->
+    </div><!--.modal --> 
+
+<div class="popup center hidden" id="how-popup">
+      <div>
+          <div >
+             <div class="popup-header">
+              <span class="fui-cross pull-right"></span>
+                  <h4 class="modal-title">How It Works</h4>
+            </div><!--modal-header -->
+            
+            <div class="popup-body">
+              <p>After you enter your information, our proprietary algorithm analyzes your past bills at ConEd.com and compares it to the prices charged by other energy suppliers. Because of the robustness of our analysis and the limitations of ConEd's website (shocking, huh?), this analysis can take up to a couple of hours. </p>
+
+              <p>Once our analysis is complete, we'll send you an email highlighting how much you might save by switching to an ESCO and the lowest priced alternatives out there. These savings can be up to hundreds of dollars a month, but it is 100% up to you to make the switch. We simply provide the analysis to give you the best information upon which to make a decision.</p>
+
+              <p>Dwindle is free to use and we'll never share your data with anyone.</p>
+          </div> <!--modal-body-->
+        </div><!--.modal-content -->
+      </div><!--.modal-dialog-->
+    </div><!--.modal --> 
+
       <div id="thanks" class="hidden text-center col-md-8">
         <img class="center-block" src="images/icons/svg/clocks.svg">
         <h3 class='text-center'>Analyzing your bill</h3>
@@ -129,18 +170,18 @@
 <nav class="navbar navbar-default navbar-fixed-bottom " role="navigation">
       <ul class="nav navbar-nav hidden-xs">           
         <li id="aboutus"><a href="#aboutus">About us</a></li>
-        <li><a href="#how">How it works</a></li>
-        <li><a href="mailto:hi@getdwindle.com">Contact us</a></li>
-        <li><a href="#contact">Blog</a></li>
+        <li><a id="how" href="#how">How it works</a></li>
+        <li><a href="mailto:info@getdwindle.com">Contact us</a></li>
+        <li><a href="http://getdwindle.tumblr.com/">Blog</a></li>
       </ul> 
    
       <div class="dropdown visible-xs">
         <span class="fui-list" data-toggle="dropdown"></span>
         <ul class="dropdown-menu">
           <li id="aboutus"><a href="#aboutus">About us</a></li>
-          <li><a href="#how">How it works</a></li>
-          <li><a href="mailto:hi@getdwindle.com">Contact us</a></li>
-          <li><a href="#contact">Blog</a></li>
+          <li><a id="how" href="#how">How it works</a></li>
+          <li><a href="mailto:info@getdwindle.com">Contact us</a></li>
+          <li><a href="http://getdwindle.tumblr.com/>Blog</a></li>
         </ul>
       </div>
 
