@@ -1,5 +1,6 @@
 $('a[href$="aboutus"]').click(function () {
 	$('#aboutus-popup').removeClass('hidden');
+	$('.closeanywhere').removeClass('hidden');
 	$('#how-popup').addClass('hidden');
 	$('#ss-form').hide();
 	// $('.full-logo').css({'top': '-385px', 'position': 'relative'});
@@ -10,6 +11,7 @@ $('a[href$="aboutus"]').click(function () {
 $('.fui-cross').click(function() {
 	$('#aboutus-popup').addClass('hidden');
 	$('#how-popup').addClass('hidden');
+	$('.closeanywhere').addClass('hidden');
 	$('#ss-form').show();
 	// $('.full-logo').css({'top': '0'});
 	$('#tagline').show();
@@ -29,6 +31,7 @@ $('.closeanywhere').click(function() {
 $('a[href$="how"]').click(function () {
 	$('#how-popup').removeClass('hidden');
 	$('#aboutus-popup').addClass('hidden');
+	$('.closeanywhere').removeClass('hidden');
 	$('#ss-form').hide();
 	// $('.full-logo').css({'top': '-385px', 'position': 'relative'});
 	$('#tagline').hide();
