@@ -41,23 +41,25 @@ $(document).ready(function(){
 
 
     $('#ss-form').submit(function(e) {
+    	 e.stopPropagation();
 		 e.preventDefault;
 		 $('#ss-form').hide();
 		 $('.instructions').hide();
 		 $('#tagline').hide();
 		 $('.full-logo').hide();
 		 $('#thanks').removeClass();
-		 return false;
+		 //return false;
 	});
 
 	$('#ss-form-2').submit(function(e) {
+		 e.stopPropagation();
 		 e.preventDefault;
 		 $('#ss-form-2').hide();
 		 $('.instructions').hide();
 		 $('#tagline').hide();
 		 $('.full-logo').hide();
 		 $('#thanks').removeClass();
-		 return false;
+		 //return false;
 	});
 
 });
