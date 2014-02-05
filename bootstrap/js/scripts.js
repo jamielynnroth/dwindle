@@ -48,7 +48,7 @@ $(document).ready(function(){
 		 $('#tagline').hide();
 		 $('.full-logo').hide();
 		 $('#thanks').removeClass();
-		 //return false;
+		 return false;
 	});
 
 	$('#ss-form-2').submit(function(e) {
