@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$('a[href$="aboutus"]').click(function () {
 		$('#aboutus-popup').removeClass('hidden');
 		$('.closeanywhere').removeClass('hidden');
+		// $('#thanks').addClass('hidden');
 		$('#how-popup').addClass('hidden');
 		$('#ss-form').hide();
 		$('#tagline').hide();
@@ -25,12 +26,15 @@ $(document).ready(function(){
 		$('#ss-form').show();
 		$('#tagline').show();
 		$('.instructions').show();
+		$('.full-logo').show();
+		$('.closeanywhere').addClass('hidden');
 	})
 
 
 	$('a[href$="how"]').click(function () {
 		$('#how-popup').removeClass('hidden');
 		$('#aboutus-popup').addClass('hidden');
+		// $('#thanks').addClass('hidden');
 		$('.closeanywhere').removeClass('hidden');
 		$('#ss-form').hide();
 		$('#tagline').hide();
@@ -48,6 +52,9 @@ $(document).ready(function(){
 		 $('#tagline').hide();
 		 $('.full-logo').hide();
 		 $('#thanks').removeClass();
+		 $('nav').hide();
+		 $('.home-link').removeClass('hidden');
+
 		 //return false;
 	});
 
@@ -59,6 +66,9 @@ $(document).ready(function(){
 		 $('#tagline').hide();
 		 $('.full-logo').hide();
 		 $('#thanks').removeClass();
+		 $('nav').hide();
+		 $('.home-link').removeClass('hidden');
+
 		 //return false;
 	});
 
