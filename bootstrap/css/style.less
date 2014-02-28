@@ -1,3 +1,11 @@
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .center {
 	margin: 0 auto;
 	float:none;
@@ -45,14 +53,18 @@ span.fui-list {
 	font-size: 23px;
 }
 
-.modal {
-    display: block !important;
-}
+// .modal {
+//     display: block !important;
+// }
 
 #thanks {
 	margin-top: 225px;
 	margin-bottom: 75px;
 	height: 100%;
+
+	.the-icons {
+		text-align: center;
+	}
 }
 
 form {
@@ -60,8 +72,10 @@ form {
 }
 
 .popup {
+	// position:absolute !important;
+	.vertical-align;
 	background-color:#3498DB; //#1ABC9C;
-	// position: absolute;
+	position: absolute;
 	z-index: 100;
 	padding: 20px;
 	// margin-bottom: 75px;
@@ -132,4 +146,25 @@ iframe {
 	.fa-lightbulb-o:hover {
 		color: #48c9b0;
 	}
+}
+
+#how-steps {
+	margin-top: 150px;
+	.step {
+		text-align: center;
+		.the-icons {
+			margin-bottom: 25px;
+		}
+		p {
+			color:white;
+		}
+}
+}
+
+.ss-form-question {
+	margin-bottom: 25px;
+}
+
+.fb-like {
+	background-color:white;
 }

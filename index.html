@@ -18,6 +18,10 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="fonts/font-awesome-4.0.3/css/font-awesome.min.css">
 
+    <!-- Dwindle icon pack -->
+    <link rel="stylesheet" href="fonts/dwindle-icons/css/dwindle-icons.css">
+    <link rel="stylesheet" href="fonts/dwindle-icons/css/animation.css">
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -26,86 +30,8 @@
   </head>
   <body>
     <div class="closeanywhere hidden"></div>
-    
-    <div class="wrapper container">
-      
-      <a class="hidden home-link pull-right" href="index.html">
-        <i class="fa fa-lightbulb-o"></i>
-      </a>
 
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-
-          <div class="text-center">
-            <a class="full-logo" href="index.html">
-              <i class="fa fa-lightbulb-o"></i>
-              <!-- <i class="fa fa-angle-double-down"></i>  -->
-              <h1 id="logo"> dwindle</h1>
-            </a>
-
-            <h2 id="tagline"><small>Lower your ConEd bill</small></h2>
-            <h6 class="instructions">Enter your info and see how much you could save:</h6>
-          </div><!-- .text-center -->
-
- 
-      <form action="https://docs.google.com/a/quotidianventures.com/forms/d/1_BeKmtm4ba_w_bn_Diowx62eXa82KYrbU4rs4Q1RDp8/formResponse" method="POST" id="ss-form" target="submitter" onsubmit="">
-        <div style="padding-left: 0">
-          
-          <div class="ss-form-question errorbox-good col-sm-8 center ">
-            <div dir="ltr" class="ss-item  ss-text">
-              <div class="ss-form-entry">
-              
-                <input type="text" placeholder="ConEd.com username" name="entry.1697004160" value="" class="ss-q-short form-control" id="entry_1697004160" dir="auto" aria-label="username  " title="">
-                <div class="error-message"></div>
-                <div class="required-message">This is a required question</div>
-              </div>
-            </div>
-          </div> 
-
-        <div class="ss-form-question errorbox-good col-sm-8 center ">
-          <div dir="ltr" class="ss-item  ss-text">
-            <div class="ss-form-entry ">
-
-              <input type="text" placeholder="ConEd.com password" name="entry.1581237788" value="" class="ss-q-short form-control" id="entry_1581237788" dir="auto" aria-label="password  " title="">
-              <div class="error-message"></div>
-              <div class="required-message">This is a required question</div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="ss-form-question errorbox-good col-sm-8 center ">
-          <div dir="ltr" class="ss-item  ss-text">
-            <div class="ss-form-entry ">
-
-              <input type="text" placeholder="Email address" name="entry.1063886520" value="" class="ss-q-short form-control" id="entry_1063886520" dir="auto" aria-label="email  " title="">
-              <div class="error-message"></div>
-              <div class="required-message">This is a required question</div>
-            </div>
-          </div>
-        </div>
-
-        <input type="hidden" name="draftResponse" value="[,,&quot;-1034129950492568227&quot;]">
-        <input type="hidden" name="pageHistory" value="0">
-        <input type="hidden" name="fromEmail" value="false">
-
-        <input type="hidden" name="fbzx" value="-1034129950492568227">
-        
-        <div class="col-sm-7 col-md-6  col-md-offset-1 col-sm-offset-2 pull-left ">
-          <a href="createconed.html">Don't have a ConEd.com account?</a>      
-        </div>
-        
-        <div class="ss-item ss-navigate col-sm-4 pull-right">
-                <input class="btn btn-hg btn-primary pull-left" type="submit" name="submit" value="Submit" id="ss-submit">
-        </div>
-
-
-        </div>
-
-      </form>
-
-
-
-   <div class="popup center hidden" id="aboutus-popup">
+     <div class="popup col-sm-6 col-sm-offset-3 hidden" id="aboutus-popup">
       <div>
           <div >
              <div class="popup-header">
@@ -118,13 +44,16 @@
 
               <p>In our research, we discovered that you could potentialy lower your bill by switching to another supplier. Unfortunately, that process was filled with complexity and hidden fees. As a result, we created Dwindle to help break through the confusion.</p>
 
+              <p>Dwindle is free to use and we'll never share your data with anyone.</p>
+
+
              
           </div> <!--modal-body-->
         </div><!--.modal-content -->
       </div><!--.modal-dialog-->
     </div><!--.modal --> 
 
-<div class="popup center hidden" id="how-popup">
+<div class="popup col-sm-6 col-sm-offset-3 hidden" id="how-popup">
       <div>
           <div >
              <div class="popup-header">
@@ -133,27 +62,149 @@
             </div><!--modal-header -->
             
             <div class="popup-body">
-              <p>After you enter your information, our proprietary algorithm analyzes your past bills at ConEd.com and compares it to the prices charged by other energy suppliers. Because of the robustness of our analysis and the limitations of ConEd's website (shocking, huh?), this analysis can take up to a couple of hours. </p>
 
-              <p>Once our analysis is complete, we'll send you an email highlighting how much you might save by switching to an ESCO and the lowest priced alternatives out there. These savings can be up to hundreds of dollars a month, but it is 100% up to you to make the switch. We simply provide the analysis to give you the best information upon which to make a decision.</p>
+              <p>Our proprietary algorithm analyzes your past ConEd bills and compares them against all of the available energy suppliers in your area. Our analysis cuts through the complex pricing models, hidden fees, and taxes to reveal how much you could save. This process can take up to a couple of hours - bear with us, its worth it! </p>
 
-              <p>Dwindle is free to use and we'll never share your data with anyone.</p>
+              <p>We'll continue to monitor your account each month and recommend the best plan for you from our database of energy suppliers.</p>
+
           </div> <!--modal-body-->
         </div><!--.modal-content -->
       </div><!--.modal-dialog-->
     </div><!--.modal --> 
 
+    
+    <div class="wrapper container">
+      
+      <a class="hidden home-link pull-left" href="index.html">
+        <i class="fa fa-lightbulb-o"></i>
+      </a>
+
+      <div class="row">
+
+        <div class="col-md-offset-2 col-md-8">
+
+          <div class="text-center">
+            <a class="full-logo" href="index.html">
+              <i class="fa fa-lightbulb-o"></i>
+              <!-- <i class="fa fa-angle-double-down"></i>  -->
+              <h1 id="logo"> dwindle</h1>
+            </a>
+
+            <h2 id="tagline"><small>Lower your ConEd bill</small></h2>
+            <h6 class="instructions">Sign up for a free account analysis:</h6>
+          </div><!-- .text-center -->
+</div>
+
+      <form action="https://docs.google.com/a/quotidianventures.com/forms/d/1_BeKmtm4ba_w_bn_Diowx62eXa82KYrbU4rs4Q1RDp8/formResponse" method="POST" id="ss-form" target="submitter" onsubmit="">
+        <div style="padding-left: 0">
+          
+          <div class="ss-form-question errorbox-good col-sm-8 center ">
+            <div dir="ltr" class="ss-item  ss-text">
+              <div class="ss-form-entry">
+              
+                <input type="text" placeholder="ConEd.com username" name="entry.1697004160" value="" class="ss-q-short form-control" id="entry_1697004160" dir="auto" aria-label="username  " title="">
+<!--                 <div class="error-message"></div>
+                <div class="required-message">This is a required question</div> -->
+              </div>
+            </div>
+          </div> 
+
+        <div class="ss-form-question errorbox-good col-sm-8 center ">
+          <div dir="ltr" class="ss-item  ss-text">
+            <div class="ss-form-entry ">
+
+              <input id="password" type="password" placeholder="ConEd.com password" name="entry.1581237788" value="" class="ss-q-short form-control" id="entry_1581237788" dir="auto" aria-label="password  " data-toggle="tooltip" rel="tooltip" data-placement="left" title="Your password is case sensitive">
+  <!--             <div class="error-message"></div>
+              <div class="required-message">This is a required question</div> -->
+            </div>
+          </div>
+        </div> 
+
+        <div class="ss-form-question errorbox-good col-sm-8 center ">
+          <div dir="ltr" class="ss-item  ss-text">
+            <div class="ss-form-entry ">
+
+              <input type="text" placeholder="Email address" name="entry.1063886520" value="" class="ss-q-short form-control" id="entry_1063886520" dir="auto" aria-label="email  " title="">
+       <!--        <div class="error-message"></div>
+              <div class="required-message">This is a required question</div> -->
+            </div>
+          </div>
+        </div>
+
+        <input type="hidden" name="draftResponse" value="[,,&quot;-1034129950492568227&quot;]">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fromEmail" value="false">
+
+        <input type="hidden" name="fbzx" value="-1034129950492568227">
+        
+   <!--      <div class="col-sm-7 col-md-6  col-md-offset-1 col-sm-offset-2 pull-left ">
+          <a href="createconed.html">Don't have a ConEd.com account?</a>      
+        </div> -->
+        
+        <div class="col-sm-7 col-md-7  col-md-offset-1 col-sm-offset-1 pull-left ">
+          <a href="https://apps1.coned.com/cemyaccount/NonMemberPages/Register.aspx?lang=eng">
+            <h7>Don't have a ConEd.com account?</h7>
+          </a>      
+        </div>
+        <div class="ss-item ss-navigate col-sm-4 pull-right">
+                <input class="btn btn-hg btn-primary pull-left" type="submit" name="submit" value="Start saving" id="ss-submit">
+        </div>
+
+
+        </div>
+
+      </form>
+
+  </div> <!-- .row -->
+
+
+
+<div class="row" id="how-steps">
+
+  <div class="step col-md-4">
+    <div class="the-icons span3">
+      <i class="icon-ok-circled"></i>
+    </div>
+    <h2>Sign Up</h2>
+    <p>We get the data we need from your ConEd.com account</p>
+  </div>
+  
+  <div class="step col-md-4">
+    <div class="the-icons span3">
+      <i class="icon-flash"></i>
+      </div>
+    <h2>We Analyze</h2>
+    <p>Our algorithm scans your bills and determines how much you could be saving</p>
+  </div>
+  
+  <div class="step col-md-4 ">
+    <div class="the-icons span3">
+      <i class="icon-lifebuoy"></i>
+      </div>
+    <h2>You Save</h2>
+    <P>We ensure you always have the best ESCO plan</P>
+    <p>Coming soon! </p>
+<!--     <p>We recommend the best plan for you from our database of energy suppliers</p>
+ -->  </div>
+</div><!--row-->
+
+
+  
 
   <iframe name="submitter" id="submitter" src=”#”></iframe>
   
       <div id="thanks" class="hidden text-center col-md-8">
-        <img class="center-block" src="images/icons/svg/clocks.svg" alt="clock">
-        <h3 class='text-center'>Analyzing your bill</h3>
-        <h5 class='text-center'>We'll email your potential savings to you shortly</h5>
+<!--         <img class="center-block" src="images/icons/svg/clocks.svg" alt="clock">
+ -->        
+        <div class="the-icons span3">
+          <i class="icon-spin1 animate-spin"></i>
+        </div>
+        <h3 class='text-center'>Making magic</h3>
+        <h5 class='text-center'>We'll email your potential savings when our analysis is complete</h5>
 
       </div>
     </div> <!-- .col -->
-  </div> <!-- .row -->
+ <!-- .row -->
 </div><!-- .wrapper .container -->
 
 
@@ -168,8 +219,8 @@
         </ul> 
 
       <div class="social pull-right">
-      <a href="http://twitter.com/dwindle"><i class="fa fa-twitter-square"></i></a>
-      <a href="http://blog.tumblr.com"><i class="fa fa-tumblr-square"></i></a>
+      <a href="http://twitter.com/getdwindle"><i class="fa fa-twitter-square"></i></a>
+      <a href="http://getdwindle.tumblr.com"><i class="fa fa-tumblr-square"></i></a>
       </div>
 
   </nav>
@@ -184,7 +235,8 @@
         </ul> 
 
       <div class="social pull-right">
-      <a href="http://twitter.com/dwindle"><i class="fa fa-twitter-square"></i></a>
+      <a href="https://www.facebook.com/pages/Dwindle/1422782857966135"><i class="fa fa-facebook-square"></i></a>
+      <a href="http://twitter.com/getdwindle"><i class="fa fa-twitter-square"></i></a>
       <a href="http://getdwindle.tumblr.com"><i class="fa fa-tumblr-square"></i></a>
       </div>
 
@@ -203,7 +255,11 @@
     <script src="js/flatui-radio.js"></script>
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
+    <!--<script src="js/jquery.validate.min.js"></script>-->
+    <script src="js/happy.js"></script>
+    <script src="js/happy.methods.js"></script>
     <script src="bootstrap/js/scripts.js"></script>
+
     </footer>
   </body>
 </html>
