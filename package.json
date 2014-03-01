@@ -1,19 +1,13 @@
 {
-  "name": "flat-ui",
-  "version": "2.1.2",
-  "description": "Flat UI Free is made on the basis of Twitter Bootstrap in a stunning flat-style",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/designmodo/Flat-UI.git"
+  "name": "mailchimp-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
   },
-  "keywords": [
-    "ui",
-    "flat",
-    "bootstrap"
-  ],
-  "author": "designmodo",
-  "license": "CC BY 3.0 and MIT",
-  "bugs": {
-    "url": "https://github.com/designmodo/Flat-UI/issues"
+  "dependencies": {
+    "express": "3.3.4",
+      "jade": "*",
+    "mailchimp-api": "*"
   }
 }

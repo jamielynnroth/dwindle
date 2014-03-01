@@ -56,7 +56,7 @@ $(document).ready(function(){
 		 $('.home-link').removeClass('hidden');
 	});
 
-	$(this).submit(function(e) {
+	$('#ss-form-2').submit(function(e) {
 		 e.stopPropagation();
 		 e.preventDefault();
 		 $('#ss-form').hide();
@@ -68,6 +68,20 @@ $(document).ready(function(){
 		 $('#how-steps').hide();
 		 $('.home-link').removeClass('hidden');
 	});
+
+	$('#mc_embed_signup').submit(function(e) {
+		 e.stopPropagation();
+		 e.preventDefault();
+		 $('#mc_embed_signup').hide();
+		 // $('.instructions').hide();
+		 // $('#tagline').hide();
+		 // $('.full-logo').hide();
+		 $('#signup-confirm').removeClass('hidden');
+		 $('nav').hide();
+		 $('#how-steps').hide();
+		 $('.home-link').removeClass('hidden');
+	});
+
 
 // Initialize bootstrap tooltip API
  $("[rel=tooltip]").tooltip();
