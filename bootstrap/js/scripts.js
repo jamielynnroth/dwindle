@@ -56,7 +56,7 @@ $(document).ready(function(){
 		 $('.home-link').removeClass('hidden');
 	});
 
-	$('#ss-form-2').submit(function(e) {
+	$('#ss-form').submit(function(e) {
 		 e.stopPropagation();
 		 e.preventDefault();
 		 $('#ss-form').hide();
